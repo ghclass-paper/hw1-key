@@ -10,7 +10,7 @@ author: Instructional staff
 
 ### Write up
 
-Placeholder write up: the function returns its input unchanged, which satisfies the behavior specified in the task description.
+The function returns its input unchanged, which satisfies the behavior specified in the task description.
 
 ### Function
 
@@ -32,7 +32,7 @@ placeholder("placeholder text")
 
 ### Write up
 
-Placeholder write up: the extension adds a `reverse` argument that reverses the input before returning it.
+The extension adds a `reverse` argument that reverses the input before returning it.
 
 ### Function
 
@@ -54,7 +54,7 @@ placeholder_ext(1:5, reverse = TRUE)
 
 ### Write up
 
-Placeholder write up: a short summary of the results from the first two tasks.
+The output above gives a brief numeric summary of the results from the first two tasks.
 
 ### Code
 
