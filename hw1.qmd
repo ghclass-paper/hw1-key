@@ -1,0 +1,63 @@
+---
+title: "Homework 1 - Key"
+format:
+  html:
+    self-contained: true
+author: Instructional staff
+---
+
+## Task 1 - Write a function
+
+### Write up
+
+Placeholder write up: the function returns its input unchanged, which satisfies the behavior specified in the task description.
+
+### Function
+
+```{r task1}
+placeholder = function(x) {
+  x
+}
+```
+
+### Example Usage
+
+```{r task1_examples}
+placeholder(1:5)
+placeholder("placeholder text")
+```
+
+
+## Task 2 - Extend the function
+
+### Write up
+
+Placeholder write up: the extension adds a `reverse` argument that reverses the input before returning it.
+
+### Function
+
+```{r task2}
+placeholder_ext = function(x, reverse = FALSE) {
+  if (reverse) rev(x) else x
+}
+```
+
+### Example Usage
+
+```{r task2_examples}
+placeholder_ext(1:5)
+placeholder_ext(1:5, reverse = TRUE)
+```
+
+
+## Task 3 - Summarize your results
+
+### Write up
+
+Placeholder write up: a short summary of the results from the first two tasks.
+
+### Code
+
+```{r task3}
+summary(placeholder(1:10))
+```
